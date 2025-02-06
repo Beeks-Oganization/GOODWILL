@@ -26,4 +26,4 @@ jobs:
             -Dsonar.projectKey=Beeks-Oganization_GOODWILL
             -Dsonar.organization=beeks-oganization
             -Dsonar.verbose=true
-          projectBaseDir: .
+          projectBaseDir:
