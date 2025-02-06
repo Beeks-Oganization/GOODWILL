@@ -22,9 +22,8 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
-          # Additional arguments for the SonarScanner CLI
           args:
-            -Dsonar.projectKey=
-            -Dsonar.organization=
+            -Dsonar.projectKey=Beeks-Oganization_GOODWILL
+            -Dsonar.organization=beeks-oganization
             -Dsonar.verbose=true
           projectBaseDir: .
